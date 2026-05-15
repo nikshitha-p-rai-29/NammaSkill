@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@color/navy" android:orientation="vertical" android:padding="16dp">
+            <Button android:id="@+id/btnBack"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="← Back" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="📋 Application Summary"
+                android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Review your profile before submitting"
+                android:textColor="#CCFFFFFF" android:textSize="13sp" android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <!-- Form state -->
+        <LinearLayout android:id="@+id/layoutForm"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="COURSE DETAILS" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/text_secondary" android:letterSpacing="0.08"
+                android:layout_marginBottom="8dp"/>
+
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="1dp" android:layout_marginBottom="16dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="14dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Course" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyCourseTitle"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Center" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyCenterName"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Starts" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyStartDate"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Fee" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyFee"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/teal"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="CANDIDATE PROFILE" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/text_secondary" android:letterSpacing="0.08"
+                android:layout_marginBottom="8dp"/>
+
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="1dp" android:layout_marginBottom="20dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="14dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Name" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyName"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Age" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyAge"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Gender" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyGender"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Phone" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyPhone"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Location" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyLocation"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Education" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvApplyEducation"
+                            android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button android:id="@+id/btnConfirmApply"
+                android:layout_width="match_parent" android:layout_height="54dp"
+                android:text="✅  Confirm &amp; Send Application"
+                android:textSize="15sp" android:textStyle="bold"
+                android:backgroundTint="@color/success"
+                android:textColor="@color/white"
+                android:layout_marginBottom="24dp"/>
+        </LinearLayout>
+
+        <!-- Success state -->
+        <LinearLayout android:id="@+id/layoutSuccess"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="32dp"
+            android:gravity="center" android:visibility="gone">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🎉" android:textSize="72sp" android:layout_marginBottom="16dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Application Sent!" android:textSize="24sp"
+                android:textStyle="bold" android:textColor="@color/success"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Your profile has been shared with the skill center. They will contact you within 2 working days."
+                android:textSize="14sp" android:textColor="@color/text_secondary"
+                android:gravity="center" android:layout_marginTop="12dp" android:layout_marginBottom="20dp"
+                android:lineSpacingMultiplier="1.4"/>
+            <TextView android:id="@+id/tvRefId"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:padding="14dp" android:textSize="15sp" android:textStyle="bold"
+                android:textColor="@color/success" android:gravity="center"
+                android:background="@drawable/bg_success_ref"
+                android:layout_marginBottom="24dp"/>
+            <Button android:id="@+id/btnDone"
+                android:layout_width="match_parent" android:layout_height="52dp"
+                android:text="Done" android:backgroundTint="@color/navy"
+                android:textColor="@color/white" android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

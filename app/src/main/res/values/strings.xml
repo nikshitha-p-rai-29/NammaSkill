@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Skill</string>
+    <string-array name="genders">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>Prefer not to say</item>
+    </string-array>
+    <string-array name="districts">
+        <item>Bagalkot</item>
+        <item>Ballari</item>
+        <item>Belagavi</item>
+        <item>Bengaluru Rural</item>
+        <item>Bengaluru Urban</item>
+        <item>Bidar</item>
+        <item>Chamarajanagar</item>
+        <item>Chikballapur</item>
+        <item>Chikkamagaluru</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kalaburagi</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysuru</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shivamogga</item>
+        <item>Tumakuru</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Vijayapura</item>
+        <item>Vijayanagara</item>
+        <item>Yadgir</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="education_levels">
+        <item>Class 5-7 Pass</item>
+        <item>Class 8 Pass</item>
+        <item>Class 10 (SSLC) Pass</item>
+        <item>Class 10 Fail</item>
+        <item>Class 12 (PUC) Pass</item>
+        <item>Class 12 Fail</item>
+        <item>ITI / Diploma</item>
+        <item>Graduate</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="trade_options">
+        <item>Electrical</item>
+        <item>Welding</item>
+        <item>Sewing</item>
+        <item>Coding</item>
+        <item>Mobile Repair</item>
+        <item>Plumbing</item>
+        <item>Mechanic</item>
+        <item>Beauty</item>
+        <item>Agriculture</item>
+        <item>Food Processing</item>
+        <item>Healthcare</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="duration_types">
+        <item>Short Term (less than 6 months)</item>
+        <item>Long Term (6 months plus)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@color/navy" android:orientation="vertical" android:padding="16dp">
+            <Button android:id="@+id/btnBack" style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="← Back" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="➕ Add New Course" android:textColor="@color/white"
+                android:textSize="20sp" android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Course Title *"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etCourseTitle"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="textCapWords"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Center Name *"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etCenterName"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="textCapWords"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Trade *" android:textSize="13sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="6dp"/>
+            <Spinner android:id="@+id/spinnerTrade"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:background="@drawable/bg_spinner" android:layout_marginBottom="14dp"
+                android:paddingHorizontal="12dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Duration Type *" android:textSize="13sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="6dp"/>
+            <Spinner android:id="@+id/spinnerDurationType"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:background="@drawable/bg_spinner" android:layout_marginBottom="14dp"
+                android:paddingHorizontal="12dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Duration (e.g. 3 Months) *"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etDuration"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Start Date (e.g. 15 June 2026) *"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etStartDate"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Fee (e.g. Free or ₹500)"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etFee"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Eligibility (e.g. Class 8 Pass)"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etEligibility"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Total Seats"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etSeats"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Language (e.g. Kannada)"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etLanguage"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Trainer Name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etTrainerName"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="textCapWords"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Trainer Phone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etTrainerPhone"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="District *" android:textSize="13sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="6dp"/>
+            <Spinner android:id="@+id/spinnerCourseDistrict"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:background="@drawable/bg_spinner" android:layout_marginBottom="14dp"
+                android:paddingHorizontal="12dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Center Address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etCenterAddress"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="textMultiLine" android:lines="2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Course Description"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="14dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etDescription"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="textMultiLine" android:lines="3"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Syllabus (one topic per line)"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="20dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etSyllabus"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:inputType="textMultiLine" android:lines="5"
+                    android:gravity="top"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button android:id="@+id/btnSaveCourse"
+                android:layout_width="match_parent" android:layout_height="54dp"
+                android:text="💾  Save Course"
+                android:textSize="16sp" android:textStyle="bold"
+                android:backgroundTint="@color/saffron" android:textColor="@color/white"
+                android:layout_marginBottom="32dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

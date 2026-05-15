@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.nammaskill.app.ui.home.HomeFragment"
+        android:label="Home">
+        <action android:id="@+id/action_home_to_detail" app:destination="@id/navigation_detail" />
+        <action android:id="@+id/action_home_to_apply" app:destination="@id/navigation_apply" />
+    </fragment>
+
+    <fragment android:id="@+id/navigation_courses"
+        android:name="com.nammaskill.app.ui.courses.CoursesFragment"
+        android:label="Courses">
+        <action android:id="@+id/action_courses_to_detail" app:destination="@id/navigation_detail" />
+        <action android:id="@+id/action_courses_to_apply" app:destination="@id/navigation_apply" />
+        <action android:id="@+id/action_courses_to_addCourse" app:destination="@id/navigation_add_course" />
+    </fragment>
+
+    <fragment android:id="@+id/navigation_map"
+        android:name="com.nammaskill.app.ui.map.MapFragment"
+        android:label="Centers" />
+
+    <fragment android:id="@+id/navigation_stories"
+        android:name="com.nammaskill.app.ui.stories.StoriesFragment"
+        android:label="Stories" />
+
+    <fragment android:id="@+id/navigation_profile"
+        android:name="com.nammaskill.app.ui.profile.ProfileFragment"
+        android:label="Profile">
+        <action android:id="@+id/action_profile_to_editProfile" app:destination="@id/navigation_edit_profile" />
+    </fragment>
+
+    <fragment android:id="@+id/navigation_detail"
+        android:name="com.nammaskill.app.ui.detail.CourseDetailFragment"
+        android:label="Course Detail">
+        <action android:id="@+id/action_detail_to_apply" app:destination="@id/navigation_apply" />
+        <action android:id="@+id/action_detail_to_ping" app:destination="@id/navigation_ping" />
+    </fragment>
+
+    <fragment android:id="@+id/navigation_apply"
+        android:name="com.nammaskill.app.ui.apply.ApplyFragment"
+        android:label="Apply" />
+
+    <fragment android:id="@+id/navigation_ping"
+        android:name="com.nammaskill.app.ui.apply.PingFragment"
+        android:label="Interest Ping" />
+
+    <fragment android:id="@+id/navigation_add_course"
+        android:name="com.nammaskill.app.ui.courses.AddCourseFragment"
+        android:label="Add Course" />
+
+    <activity android:id="@+id/navigation_edit_profile"
+        android:name="com.nammaskill.app.ui.onboarding.UserProfileSetupActivity"
+        android:label="Edit Profile" />
+
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/navy" android:padding="16dp" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Success Stories ⭐"
+            android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvPlacedCount"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/gold" android:textSize="13sp" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStories"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:padding="16dp" android:clipToPadding="false"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp" app:cardElevation="2dp" android:layout_marginBottom="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:padding="14dp" android:gravity="center_vertical">
+        <TextView android:id="@+id/tvCenterEmoji"
+            android:layout_width="44dp" android:layout_height="44dp"
+            android:gravity="center" android:textSize="22sp"
+            android:background="@drawable/bg_tag_green"
+            android:layout_marginEnd="12dp"/>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/tvCenterName"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+            <TextView android:id="@+id/tvCenterAddress"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="12sp" android:textColor="@color/text_secondary"/>
+            <TextView android:id="@+id/tvCenterDistance"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="12sp" android:textColor="@color/text_secondary"/>
+            <TextView android:id="@+id/tvCenterCourses"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="12sp" android:textStyle="bold" android:textColor="@color/teal"/>
+            <TextView android:id="@+id/tvCenterPhone"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="12sp" android:textColor="@color/text_secondary"/>
+        </LinearLayout>
+        <Button android:id="@+id/btnCallCenter"
+            android:layout_width="wrap_content" android:layout_height="36dp"
+            android:text="📞 Call" android:textSize="12sp"
+            android:backgroundTint="@color/teal" android:textColor="@color/white"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

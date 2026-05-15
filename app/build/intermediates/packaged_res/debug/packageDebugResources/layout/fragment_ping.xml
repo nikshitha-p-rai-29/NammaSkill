@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@color/teal" android:orientation="vertical" android:padding="16dp">
+            <Button android:id="@+id/btnBack" style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="← Back" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="📞 Interest Ping" android:textColor="@color/white"
+                android:textSize="20sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Request a callback from the trainer"
+                android:textColor="#CCFFFFFF" android:textSize="13sp" android:layout_marginTop="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/layoutPingForm"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="1dp" android:layout_marginBottom="16dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="14dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Your Name" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvPingName" android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Phone" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvPingPhone" android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Course" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvPingCourse" android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textStyle="bold" android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Trainer" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvPingTrainer" android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Center" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvPingCenter" android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/text_primary"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingVertical="8dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Trainer Phone" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+                        <TextView android:id="@+id/tvPingTrainerPhone" android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="2" android:textColor="@color/teal"
+                            android:textSize="13sp" android:gravity="end"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <Button android:id="@+id/btnSendPing"
+                android:layout_width="match_parent" android:layout_height="54dp"
+                android:text="📞  Send Ping — Request Callback"
+                android:textSize="15sp" android:textStyle="bold"
+                android:backgroundTint="@color/teal" android:textColor="@color/white"
+                android:layout_marginBottom="24dp"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/layoutPingSuccess"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="32dp"
+            android:gravity="center" android:visibility="gone">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="📲" android:textSize="72sp" android:layout_marginBottom="16dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Ping Sent!" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/teal"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="The trainer has been notified. Expect a call within 24 hours on your registered number."
+                android:textSize="14sp" android:textColor="@color/text_secondary"
+                android:gravity="center" android:layout_marginTop="12dp" android:layout_marginBottom="24dp"
+                android:lineSpacingMultiplier="1.4"/>
+            <Button android:id="@+id/btnPingDone"
+                android:layout_width="match_parent" android:layout_height="52dp"
+                android:text="Great, Thanks!" android:backgroundTint="@color/teal"
+                android:textColor="@color/white" android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

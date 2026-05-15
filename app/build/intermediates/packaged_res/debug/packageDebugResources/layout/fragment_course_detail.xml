@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+        <LinearLayout android:id="@+id/headerBanner"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp"
+            android:background="@color/navy">
+            <Button android:id="@+id/btnBack"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:text="← Back" android:textColor="@color/white"
+                android:layout_marginBottom="12dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:id="@+id/tvDetailEmoji"
+                    android:layout_width="60dp" android:layout_height="60dp"
+                    android:gravity="center" android:textSize="28sp"
+                    android:background="@drawable/bg_circle_white"
+                    android:layout_marginEnd="14dp"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:id="@+id/tvDetailTitle"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textColor="@color/white" android:textSize="19sp" android:textStyle="bold"
+                        android:lineSpacingMultiplier="1.2"/>
+                    <TextView android:id="@+id/tvDetailCenter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textColor="#CCFFFFFF" android:textSize="12sp" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <!-- Info grid 2x2 -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="10dp">
+                <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp" app:cardElevation="1dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Duration" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvDetailDuration"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp" app:cardElevation="1dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Fee" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvDetailFee"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:textSize="14sp" android:textStyle="bold" android:textColor="@color/teal"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="10dp">
+                <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp" app:cardElevation="1dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Start Date" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvDetailStartDate"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:textSize="13sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp" app:cardElevation="1dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Eligibility" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvDetailEligibility"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:textSize="13sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Additional info -->
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="1dp" android:layout_marginBottom="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="14dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="✅ Placement" android:textSize="11sp" android:textColor="@color/text_secondary" android:layout_marginBottom="2dp"/>
+                    <TextView android:id="@+id/tvDetailJobGuarantee"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textStyle="bold" android:textColor="#2E7D32" android:layout_marginBottom="10dp"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginBottom="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🪑 Seats" android:textSize="11sp" android:textColor="@color/text_secondary" android:layout_marginBottom="2dp"/>
+                    <TextView android:id="@+id/tvDetailSeats"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textStyle="bold" android:textColor="@color/saffron" android:layout_marginBottom="10dp"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginBottom="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🗣 Language" android:textSize="11sp" android:textColor="@color/text_secondary" android:layout_marginBottom="2dp"/>
+                    <TextView android:id="@+id/tvDetailLanguage"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginBottom="10dp"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginBottom="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📞 Trainer" android:textSize="11sp" android:textColor="@color/text_secondary" android:layout_marginBottom="2dp"/>
+                    <TextView android:id="@+id/tvDetailTrainer"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    <TextView android:id="@+id/tvDetailTrainerPhone"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="13sp" android:textColor="@color/teal" android:layout_marginBottom="10dp"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginBottom="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📍 Address" android:textSize="11sp" android:textColor="@color/text_secondary" android:layout_marginBottom="2dp"/>
+                    <TextView android:id="@+id/tvDetailAddress"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="13sp" android:textColor="@color/text_primary"/>
+                    <TextView android:id="@+id/tvDetailDistrict"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Description -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="ABOUT THIS COURSE" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/text_secondary" android:letterSpacing="0.08"
+                android:layout_marginBottom="8dp"/>
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="1dp" android:layout_marginBottom="14dp">
+                <TextView android:id="@+id/tvDetailDescription"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:padding="14dp" android:textSize="14sp" android:textColor="@color/text_primary"
+                    android:lineSpacingMultiplier="1.5"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Syllabus -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="WHAT YOU'LL LEARN" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/text_secondary" android:letterSpacing="0.08"
+                android:layout_marginBottom="8dp"/>
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="1dp" android:layout_marginBottom="20dp">
+                <LinearLayout android:id="@+id/llSyllabus"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="14dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Action buttons -->
+            <Button android:id="@+id/btnApplyNow"
+                android:layout_width="match_parent" android:layout_height="54dp"
+                android:text="🚀  Apply for This Course"
+                android:textSize="16sp" android:textStyle="bold"
+                android:backgroundTint="@color/saffron"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"/>
+
+            <Button android:id="@+id/btnInterestPing"
+                android:layout_width="match_parent" android:layout_height="52dp"
+                android:text="📞  Interest Ping — Get a Callback"
+                android:textSize="14sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeColor="@color/teal"
+                android:textColor="@color/teal"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

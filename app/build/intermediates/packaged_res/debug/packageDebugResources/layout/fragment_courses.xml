@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navy"
+        app:elevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore Courses 📚"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+            <!-- Duration filters -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="10dp">
+                <Button android:id="@+id/btnDurAll"
+                    android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1"
+                    android:text="All" android:textSize="12sp" android:layout_marginEnd="6dp"
+                    android:backgroundTint="@color/saffron" android:textColor="@color/white"/>
+                <Button android:id="@+id/btnDurShort"
+                    android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1"
+                    android:text="Short (&lt;6m)" android:textSize="12sp" android:layout_marginEnd="6dp"
+                    android:backgroundTint="@color/navy_mid" android:textColor="@color/white"/>
+                <Button android:id="@+id/btnDurLong"
+                    android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1"
+                    android:text="Long (6m+)" android:textSize="12sp"
+                    android:backgroundTint="@color/navy_mid" android:textColor="@color/white"/>
+            </LinearLayout>
+            <!-- Trade chips scroll -->
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <com.google.android.material.chip.ChipGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:singleSelection="true"
+                    app:selectionRequired="true">
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterAll"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="✨ All" android:checked="true"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterElectrical"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="⚡ Electrical"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterWelding"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🔥 Welding"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterSewing"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🧵 Sewing"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterCoding"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="💻 Coding"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterMobile"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📱 Mobile"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterPlumbing"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🔧 Plumbing"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterMechanic"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🏍️ Mechanic"/>
+                    <com.google.android.material.chip.Chip android:id="@+id/chipFilterBeauty"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="💄 Beauty"/>
+                </com.google.android.material.chip.ChipGroup>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+            <TextView android:id="@+id/tvResultCount"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="13sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="12dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCourses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabAddCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="+ Add Course"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/saffron"
+        app:icon="@drawable/ic_add"
+        app:iconTint="@color/white"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

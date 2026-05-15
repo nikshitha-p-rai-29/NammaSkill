@@ -1,0 +1,258 @@
+package com.nammaskill.app.data.repository
+
+import com.nammaskill.app.data.model.Course
+import com.nammaskill.app.data.model.SuccessStory
+
+object SeedData {
+
+    suspend fun seedDatabase(db: NammaSkillDatabase) {
+        if (db.courseDao().getCourseCount() == 0) {
+            db.courseDao().insertAll(getDefaultCourses())
+        }
+        if (db.storyDao().getCount() == 0) {
+            db.storyDao().insertAll(getDefaultStories())
+        }
+    }
+
+    fun getDefaultCourses(): List<Course> = listOf(
+        Course(
+            title = "Mobile Repair & Servicing",
+            centerName = "PMKVY Center, Udupi",
+            trade = "Mobile Repair",
+            duration = "3 Months",
+            durationType = "short",
+            fee = "Free",
+            eligibility = "Class 8 Pass",
+            startDate = "15 June 2026",
+            seatsLeft = 12,
+            totalSeats = 30,
+            jobGuarantee = "Job Guaranteed",
+            language = "Kannada",
+            description = "Learn to diagnose, repair and service Android & iOS smartphones, tablets, and feature phones. Hands-on training with real devices provided by NSDC-certified trainers.",
+            syllabus = listOf("Basic Electronics & Tools", "Android OS Structure", "Hardware Disassembly", "Screen & Battery Replacement", "Software Flashing & Unlock", "Running Your Own Repair Shop"),
+            trainerName = "Ramesh Bhat",
+            trainerPhone = "+91 94482 00011",
+            districtName = "Udupi",
+            centerAddress = "Near Bus Stand, Udupi, Karnataka 576101",
+            iconEmoji = "📱",
+            bannerColor = "#FFF0E5"
+        ),
+        Course(
+            title = "Electrical Wiring & Installation",
+            centerName = "Govt. Polytechnic, Udupi",
+            trade = "Electrical",
+            duration = "6 Months",
+            durationType = "long",
+            fee = "₹500 (Refundable)",
+            eligibility = "Class 10 Pass",
+            startDate = "1 July 2026",
+            seatsLeft = 8,
+            totalSeats = 25,
+            jobGuarantee = "Job Guaranteed",
+            language = "Kannada / English",
+            description = "Comprehensive training in domestic & industrial electrical wiring, panel installation, safety standards and maintenance. NSDC certification included.",
+            syllabus = listOf("Electrical Safety & Tools", "Domestic Wiring", "Industrial Panel Wiring", "MCB & ELCB Installation", "Solar Panel Basics", "Job Readiness & Placement"),
+            trainerName = "Suresh Kumar",
+            trainerPhone = "+91 94482 00022",
+            districtName = "Udupi",
+            centerAddress = "Polytechnic Road, Manipal, Udupi 576104",
+            iconEmoji = "⚡",
+            bannerColor = "#FFF8E1"
+        ),
+        Course(
+            title = "Industrial Welding",
+            centerName = "ITI Mangalore North",
+            trade = "Welding",
+            duration = "3 Months",
+            durationType = "short",
+            fee = "Free",
+            eligibility = "Class 8 Pass",
+            startDate = "20 June 2026",
+            seatsLeft = 5,
+            totalSeats = 20,
+            jobGuarantee = "Job Guaranteed",
+            language = "Kannada",
+            description = "MIG, TIG and arc welding techniques for industrial and construction applications. NSDC-certified with on-site factory visits.",
+            syllabus = listOf("Safety & PPE", "Arc Welding Basics", "MIG Welding", "TIG Welding", "Pipe Welding", "Certification & Placement"),
+            trainerName = "Anand Shetty",
+            trainerPhone = "+91 94482 00033",
+            districtName = "Mangalore",
+            centerAddress = "Kadri Road, Mangalore, Karnataka 575002",
+            iconEmoji = "🔥",
+            bannerColor = "#E8F5E9"
+        ),
+        Course(
+            title = "Garment & Sewing Technology",
+            centerName = "Skill India Hub, Kundapur",
+            trade = "Sewing",
+            duration = "3 Months",
+            durationType = "short",
+            fee = "Free",
+            eligibility = "Class 7 Pass",
+            startDate = "10 June 2026",
+            seatsLeft = 18,
+            totalSeats = 40,
+            jobGuarantee = "High Demand",
+            language = "Kannada",
+            description = "Tailoring, garment stitching, and fashion design basics for self-employment or export unit placement.",
+            syllabus = listOf("Machine Operation", "Basic Stitching Patterns", "Garment Cutting", "Blouse & Salwar Design", "Quality Checking", "Export Unit Readiness"),
+            trainerName = "Savitha Rai",
+            trainerPhone = "+91 94482 00044",
+            districtName = "Udupi",
+            centerAddress = "Main Road, Kundapur, Karnataka 576201",
+            iconEmoji = "🧵",
+            bannerColor = "#FCE4EC"
+        ),
+        Course(
+            title = "Web Development & Coding",
+            centerName = "NSDC Partner Center, Karkala",
+            trade = "Coding",
+            duration = "6 Months",
+            durationType = "long",
+            fee = "₹1000",
+            eligibility = "Class 10 Pass",
+            startDate = "1 August 2026",
+            seatsLeft = 15,
+            totalSeats = 30,
+            jobGuarantee = "High Demand",
+            language = "English",
+            description = "HTML, CSS, JavaScript and basic React. Includes freelancing skills, portfolio building and remote job assistance.",
+            syllabus = listOf("HTML & CSS Fundamentals", "JavaScript Basics", "Responsive Design", "React Introduction", "Freelancing & Upwork", "Portfolio & Job Interview"),
+            trainerName = "Prashanth Kamath",
+            trainerPhone = "+91 94482 00055",
+            districtName = "Udupi",
+            centerAddress = "College Road, Karkala, Karnataka 574104",
+            iconEmoji = "💻",
+            bannerColor = "#E3F2FD"
+        ),
+        Course(
+            title = "Plumbing & Sanitation",
+            centerName = "PMKVY Center, Udupi",
+            trade = "Plumbing",
+            duration = "3 Months",
+            durationType = "short",
+            fee = "Free",
+            eligibility = "Class 8 Pass",
+            startDate = "25 June 2026",
+            seatsLeft = 10,
+            totalSeats = 25,
+            jobGuarantee = "Job Guaranteed",
+            language = "Kannada",
+            description = "Domestic plumbing, pipe fitting, sanitation systems and water supply installations with practical site training.",
+            syllabus = listOf("Tools & Pipe Types", "Domestic Water Supply", "Drainage & Sanitation", "Bathroom Fitting", "Leakage Detection", "Entrepreneurship Basics"),
+            trainerName = "Dinesh Nayak",
+            trainerPhone = "+91 94482 00066",
+            districtName = "Udupi",
+            centerAddress = "Near Bus Stand, Udupi, Karnataka 576101",
+            iconEmoji = "🔧",
+            bannerColor = "#E8F5E9"
+        ),
+        Course(
+            title = "Two-Wheeler Mechanic",
+            centerName = "ITI Mangalore North",
+            trade = "Mechanic",
+            duration = "3 Months",
+            durationType = "short",
+            fee = "Free",
+            eligibility = "Class 8 Pass",
+            startDate = "5 July 2026",
+            seatsLeft = 7,
+            totalSeats = 20,
+            jobGuarantee = "Job Guaranteed",
+            language = "Kannada",
+            description = "Engine servicing, brake systems, electrical systems of two-wheelers. Partnership with Hero & Bajaj service centres.",
+            syllabus = listOf("Engine Basics", "Petrol & EV Engines", "Brake & Clutch Systems", "Electrical Wiring", "Live Workshop Training", "Job Placement Support"),
+            trainerName = "Kishore Suvarna",
+            trainerPhone = "+91 94482 00077",
+            districtName = "Mangalore",
+            centerAddress = "Kadri Road, Mangalore, Karnataka 575002",
+            iconEmoji = "🏍️",
+            bannerColor = "#EDE7F6"
+        ),
+        Course(
+            title = "Beauty & Wellness Therapy",
+            centerName = "Skill India Hub, Kundapur",
+            trade = "Beauty",
+            duration = "6 Months",
+            durationType = "long",
+            fee = "₹500",
+            eligibility = "Class 8 Pass",
+            startDate = "1 July 2026",
+            seatsLeft = 20,
+            totalSeats = 30,
+            jobGuarantee = "High Demand",
+            language = "Kannada / English",
+            description = "Hair styling, skin care, mehendi, and spa therapy. Ideal for opening a home-based parlour or joining a salon.",
+            syllabus = listOf("Skin & Hair Basics", "Hair Cutting & Styling", "Facial & Skin Care", "Bridal Makeup", "Mehendi Art", "Starting Your Own Parlour"),
+            trainerName = "Deepa Shetty",
+            trainerPhone = "+91 94482 00088",
+            districtName = "Udupi",
+            centerAddress = "Main Road, Kundapur, Karnataka 576201",
+            iconEmoji = "💄",
+            bannerColor = "#FCE4EC"
+        )
+    )
+
+    fun getDefaultStories(): List<SuccessStory> = listOf(
+        SuccessStory(
+            personName = "Ravi Kumar",
+            age = 22,
+            location = "Udupi, Karnataka",
+            trade = "Mobile Repair",
+            courseTaken = "Mobile Repair & Servicing",
+            currentJob = "Own Mobile Repair Shop",
+            monthlySalary = "₹18,000/month",
+            quote = "I never thought a 3-month course could change my life. Now I repair phones and earn enough to support my family!",
+            iconEmoji = "📱",
+            bannerColor = "#FFF0E5"
+        ),
+        SuccessStory(
+            personName = "Savitha B.",
+            age = 25,
+            location = "Manipal, Karnataka",
+            trade = "Sewing",
+            courseTaken = "Garment & Sewing Technology",
+            currentJob = "Garment Export Unit",
+            monthlySalary = "₹14,000/month",
+            quote = "The stitching course was free! Now I work at an export unit. My family is so proud of me.",
+            iconEmoji = "🧵",
+            bannerColor = "#FCE4EC"
+        ),
+        SuccessStory(
+            personName = "Pradeep Shetty",
+            age = 19,
+            location = "Karkala, Karnataka",
+            trade = "Electrical",
+            courseTaken = "Electrical Wiring & Installation",
+            currentJob = "Electrical Contractor",
+            monthlySalary = "₹22,000/month",
+            quote = "I failed my PUC but the electrician course was perfect. Got placed in a company within 2 weeks of completing it.",
+            iconEmoji = "⚡",
+            bannerColor = "#FFF8E1"
+        ),
+        SuccessStory(
+            personName = "Suresh Naik",
+            age = 21,
+            location = "Kundapur, Karnataka",
+            trade = "Welding",
+            courseTaken = "Industrial Welding",
+            currentJob = "Steel Fabrication Factory",
+            monthlySalary = "₹20,000/month",
+            quote = "Welding is a skill for life. The government center gave us free tools too. I got absorbed in the same factory where I trained!",
+            iconEmoji = "🔥",
+            bannerColor = "#E8F5E9"
+        ),
+        SuccessStory(
+            personName = "Meera Prabhu",
+            age = 23,
+            location = "Mangalore, Karnataka",
+            trade = "Beauty",
+            courseTaken = "Beauty & Wellness Therapy",
+            currentJob = "Own Beauty Parlour",
+            monthlySalary = "₹16,000/month",
+            quote = "I started my own parlour with zero investment after the course. The trainer helped me register under Mudra loan scheme.",
+            iconEmoji = "💄",
+            bannerColor = "#FCE4EC"
+        )
+    )
+}

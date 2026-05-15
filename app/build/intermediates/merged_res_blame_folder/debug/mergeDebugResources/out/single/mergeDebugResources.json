@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_tab_dot_default.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\tab_dot_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_item_onboard_page.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_onboard_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_courses.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_courses.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_stories.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_stories.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_ping.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_ping.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_tab_dot_selected.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\tab_dot_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_circle_saffron.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_circle_saffron.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_tab_selector.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\tab_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_tag_saffron.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_tag_saffron.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_success_ref.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_success_ref.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_apply.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_apply.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\color_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\color\\bottom_nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_dot_teal.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_dot_teal.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_item_story_card.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_story_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_tag_purple.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_tag_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_course_detail.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_course_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_item_center.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_activity_user_profile_setup.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_user_profile_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_filter_selected.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_filter_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_courses.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_courses.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_filter_default.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_filter_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_tag_green.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_tag_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_banner_gradient.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_banner_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_circle_white.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_spinner.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\color_chip_selector.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\color\\chip_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_add_course.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_add_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_tag_gold.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_tag_gold.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\color_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\color\\chip_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_item_application.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_application.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_activity_onboarding.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_ic_map.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\ic_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_circle_translucent.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_circle_translucent.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\drawable_bg_search_bar.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\drawable\\bg_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.nammaskill.app-debug-73:/layout_activity_login.xml.flat",
+        "source": "com.nammaskill.app-main-75:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-debug-73:\\layout_item_course_card.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_course_card.xml"
+    }
+]

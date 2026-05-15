@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031800946439",
+    "project_id": "namma-skill-b3999",
+    "storage_bucket": "namma-skill-b3999.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031800946439:android:779fb6f10b461166ffcfa2",
+        "android_client_info": {
+          "package_name": "com.nammaskill.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAglAyoe4rIx1UwLQdUPT2Xa2kOxbXQg5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

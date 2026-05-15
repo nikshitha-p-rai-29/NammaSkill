@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1031800946439</string>
+    <string name="google_api_key" translatable="false">AIzaSyAglAyoe4rIx1UwLQdUPT2Xa2kOxbXQg5Q</string>
+    <string name="google_app_id" translatable="false">1:1031800946439:android:779fb6f10b461166ffcfa2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAglAyoe4rIx1UwLQdUPT2Xa2kOxbXQg5Q</string>
+    <string name="google_storage_bucket" translatable="false">namma-skill-b3999.firebasestorage.app</string>
+    <string name="project_id" translatable="false">namma-skill-b3999</string>
+</resources>

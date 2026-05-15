@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\item_application.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_application.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\activity_user_profile_setup.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_user_profile_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_apply.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_apply.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\item_onboard_page.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_onboard_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\item_center.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_stories.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_stories.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_course_detail.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_course_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_add_course.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_add_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\item_course_card.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_course_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_ping.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_ping.xml"
+    },
+    {
+        "merged": "com.nammaskill.app-mergeDebugResources-72:/layout/activity_login.xml",
+        "source": "com.nammaskill.app-main-75:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\item_story_card.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\item_story_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-mergeDebugResources-72:\\layout\\fragment_courses.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.nammaskill.app-main-75:\\layout\\fragment_courses.xml"
+    }
+]
